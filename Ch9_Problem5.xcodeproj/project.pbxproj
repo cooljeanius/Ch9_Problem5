@@ -9,7 +9,35 @@
 /* Begin PBXBuildFile section */
 		8DD76FAC0486AB0100D96B5E /* Ch9_Problem5_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* Ch9_Problem5_main.c */; settings = {ATTRIBUTES = (); }; };
 		8DD76FB00486AB0100D96B5E /* Ch9_Problem5.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* Ch9_Problem5.1 */; };
+		A5FC034215CD9C4E00B85A02 /* Ch9_Problem5_linked.c in Sources */ = {isa = PBXBuildFile; fileRef = A5FC034115CD9C4E00B85A02 /* Ch9_Problem5_linked.c */; };
+		A5FC035C15CDB14000B85A02 /* libipv4address.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FC033B15CD9B1900B85A02 /* libipv4address.h */; };
+		A5FC035D15CDB14700B85A02 /* libipv4address.h in Sources */ = {isa = PBXBuildFile; fileRef = A5FC033B15CD9B1900B85A02 /* libipv4address.h */; };
+		A5FC035E15CDB14700B85A02 /* libipv4address.c in Sources */ = {isa = PBXBuildFile; fileRef = A5FC033C15CD9B1900B85A02 /* libipv4address.c */; };
+		A5FC036815CDB18600B85A02 /* libipv4address.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FC033B15CD9B1900B85A02 /* libipv4address.h */; };
+		A5FC036915CDB18900B85A02 /* libipv4address.h in Sources */ = {isa = PBXBuildFile; fileRef = A5FC033B15CD9B1900B85A02 /* libipv4address.h */; };
+		A5FC036A15CDB18900B85A02 /* libipv4address.c in Sources */ = {isa = PBXBuildFile; fileRef = A5FC033C15CD9B1900B85A02 /* libipv4address.c */; };
+		A5FC038215CDB1F100B85A02 /* Ch9_Problem5_linked.c in Sources */ = {isa = PBXBuildFile; fileRef = A5FC034115CD9C4E00B85A02 /* Ch9_Problem5_linked.c */; };
+		A5FC038615CDB20C00B85A02 /* libipv4address.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FC033B15CD9B1900B85A02 /* libipv4address.h */; };
+		A5FC038715CDB21A00B85A02 /* libipv4address.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FC034A15CD9CA700B85A02 /* libipv4address.dylib */; };
+		A5FC038815CDB21A00B85A02 /* libipv4address.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FC036515CDB15B00B85A02 /* libipv4address.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5FC037515CDB1D200B85A02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FC034915CD9CA700B85A02 /* libipv4address_dynamic */;
+			remoteInfo = libipv4address_dynamic;
+		};
+		A5FC037715CDB1D600B85A02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FC036415CDB15B00B85A02 /* libipv4address_static */;
+			remoteInfo = libipv4address_static;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
@@ -27,6 +55,12 @@
 /* Begin PBXFileReference section */
 		08FB7796FE84155DC02AAC07 /* Ch9_Problem5_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Ch9_Problem5_main.c; sourceTree = "<group>"; };
 		8DD76FB20486AB0100D96B5E /* Ch9_Problem5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ch9_Problem5; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FC033B15CD9B1900B85A02 /* libipv4address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libipv4address.h; sourceTree = "<group>"; };
+		A5FC033C15CD9B1900B85A02 /* libipv4address.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libipv4address.c; sourceTree = "<group>"; };
+		A5FC034115CD9C4E00B85A02 /* Ch9_Problem5_linked.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Ch9_Problem5_linked.c; sourceTree = "<group>"; };
+		A5FC034A15CD9CA700B85A02 /* libipv4address.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libipv4address.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FC036515CDB15B00B85A02 /* libipv4address.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libipv4address.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FC037115CDB1B900B85A02 /* Ch9_Problem5_linked */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ch9_Problem5_linked; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A0FF2C0290799A04C91782 /* Ch9_Problem5.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Ch9_Problem5.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,6 +69,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FC034815CD9CA700B85A02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FC036315CDB15B00B85A02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FC036F15CDB1B900B85A02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FC038715CDB21A00B85A02 /* libipv4address.dylib in Frameworks */,
+				A5FC038815CDB21A00B85A02 /* libipv4address.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +111,9 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				A5FC033815CD9AF400B85A02 /* libipv4address */,
 				08FB7796FE84155DC02AAC07 /* Ch9_Problem5_main.c */,
+				A5FC034115CD9C4E00B85A02 /* Ch9_Problem5_linked.c */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -63,8 +122,20 @@
 			isa = PBXGroup;
 			children = (
 				8DD76FB20486AB0100D96B5E /* Ch9_Problem5 */,
+				A5FC034A15CD9CA700B85A02 /* libipv4address.dylib */,
+				A5FC036515CDB15B00B85A02 /* libipv4address.a */,
+				A5FC037115CDB1B900B85A02 /* Ch9_Problem5_linked */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A5FC033815CD9AF400B85A02 /* libipv4address */ = {
+			isa = PBXGroup;
+			children = (
+				A5FC033B15CD9B1900B85A02 /* libipv4address.h */,
+				A5FC033C15CD9B1900B85A02 /* libipv4address.c */,
+			);
+			name = libipv4address;
 			sourceTree = "<group>";
 		};
 		C6A0FF2B0290797F04C91782 /* Documentation */ = {
@@ -76,6 +147,33 @@
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A5FC034615CD9CA700B85A02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FC035C15CDB14000B85A02 /* libipv4address.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FC036115CDB15B00B85A02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FC036815CDB18600B85A02 /* libipv4address.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FC039015CDB23000B85A02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FC038615CDB20C00B85A02 /* libipv4address.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		8DD76FA90486AB0100D96B5E /* Ch9_Problem5 */ = {
@@ -94,6 +192,59 @@
 			productInstallPath = "$(HOME)/bin";
 			productName = Ch9_Problem5;
 			productReference = 8DD76FB20486AB0100D96B5E /* Ch9_Problem5 */;
+			productType = "com.apple.product-type.tool";
+		};
+		A5FC034915CD9CA700B85A02 /* libipv4address_dynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FC035B15CD9CCA00B85A02 /* Build configuration list for PBXNativeTarget "libipv4address_dynamic" */;
+			buildPhases = (
+				A5FC034615CD9CA700B85A02 /* Headers */,
+				A5FC034715CD9CA700B85A02 /* Sources */,
+				A5FC034815CD9CA700B85A02 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libipv4address_dynamic;
+			productName = libipv4address_dynamic;
+			productReference = A5FC034A15CD9CA700B85A02 /* libipv4address.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		A5FC036415CDB15B00B85A02 /* libipv4address_static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FC036D15CDB1AA00B85A02 /* Build configuration list for PBXNativeTarget "libipv4address_static" */;
+			buildPhases = (
+				A5FC036115CDB15B00B85A02 /* Headers */,
+				A5FC036215CDB15B00B85A02 /* Sources */,
+				A5FC036315CDB15B00B85A02 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libipv4address_static;
+			productName = libipv4address_static;
+			productReference = A5FC036515CDB15B00B85A02 /* libipv4address.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A5FC037015CDB1B900B85A02 /* Ch9_Problem5_linked */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FC039115CDB23000B85A02 /* Build configuration list for PBXNativeTarget "Ch9_Problem5_linked" */;
+			buildPhases = (
+				A5FC039015CDB23000B85A02 /* Headers */,
+				A5FC036E15CDB1B900B85A02 /* Sources */,
+				A5FC036F15CDB1B900B85A02 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5FC037615CDB1D200B85A02 /* PBXTargetDependency */,
+				A5FC037815CDB1D600B85A02 /* PBXTargetDependency */,
+			);
+			name = Ch9_Problem5_linked;
+			productName = Ch9_Problem5_linked;
+			productReference = A5FC037115CDB1B900B85A02 /* Ch9_Problem5_linked */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -116,6 +267,9 @@
 			projectRoot = "";
 			targets = (
 				8DD76FA90486AB0100D96B5E /* Ch9_Problem5 */,
+				A5FC034915CD9CA700B85A02 /* libipv4address_dynamic */,
+				A5FC036415CDB15B00B85A02 /* libipv4address_static */,
+				A5FC037015CDB1B900B85A02 /* Ch9_Problem5_linked */,
 			);
 		};
 /* End PBXProject section */
@@ -126,10 +280,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76FAC0486AB0100D96B5E /* Ch9_Problem5_main.c in Sources */,
+				A5FC034215CD9C4E00B85A02 /* Ch9_Problem5_linked.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FC034715CD9CA700B85A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FC035D15CDB14700B85A02 /* libipv4address.h in Sources */,
+				A5FC035E15CDB14700B85A02 /* libipv4address.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FC036215CDB15B00B85A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FC036915CDB18900B85A02 /* libipv4address.h in Sources */,
+				A5FC036A15CDB18900B85A02 /* libipv4address.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FC036E15CDB1B900B85A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FC038215CDB1F100B85A02 /* Ch9_Problem5_linked.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5FC037615CDB1D200B85A02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5FC034915CD9CA700B85A02 /* libipv4address_dynamic */;
+			targetProxy = A5FC037515CDB1D200B85A02 /* PBXContainerItemProxy */;
+		};
+		A5FC037815CDB1D600B85A02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5FC036415CDB15B00B85A02 /* libipv4address_static */;
+			targetProxy = A5FC037715CDB1D600B85A02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB928608733DD80010E9CD /* Debug */ = {
@@ -227,6 +421,99 @@
 			};
 			name = Release;
 		};
+		A5FC034B15CD9CA900B85A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = libipv4address;
+			};
+			name = Debug;
+		};
+		A5FC034C15CD9CA900B85A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = libipv4address_dynamic;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A5FC036615CDB15C00B85A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = libipv4address;
+			};
+			name = Debug;
+		};
+		A5FC036715CDB15C00B85A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = libipv4address_static;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A5FC037315CDB1BA00B85A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				MACH_O_TYPE = mh_execute;
+				PREBINDING = NO;
+				PRODUCT_NAME = Ch9_Problem5_linked;
+			};
+			name = Debug;
+		};
+		A5FC037415CDB1BA00B85A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = Ch9_Problem5_linked;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -244,6 +531,33 @@
 			buildConfigurations = (
 				1DEB928A08733DD80010E9CD /* Debug */,
 				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FC035B15CD9CCA00B85A02 /* Build configuration list for PBXNativeTarget "libipv4address_dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FC034B15CD9CA900B85A02 /* Debug */,
+				A5FC034C15CD9CA900B85A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FC036D15CDB1AA00B85A02 /* Build configuration list for PBXNativeTarget "libipv4address_static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FC036615CDB15C00B85A02 /* Debug */,
+				A5FC036715CDB15C00B85A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FC039115CDB23000B85A02 /* Build configuration list for PBXNativeTarget "Ch9_Problem5_linked" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FC037315CDB1BA00B85A02 /* Debug */,
+				A5FC037415CDB1BA00B85A02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

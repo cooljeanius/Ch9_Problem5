@@ -1,252 +1,364 @@
-#  /Developer/usr/bin/gdb t=0.016692 Tepoch=1344037111.232658
+#  /Developer/usr/bin/gdb t=0.011403 Tepoch=1344109316.074052
 <- (gdb) 
--> 3777-gdb-version
-#  PBXGDB_MIGDBVersionCommand t=3.213271 Tepoch=1344037114.429236
--> 3778-gdb-set auto-raise-load-levels 1
-#  PBXGDB_MISetAutoRaiseSymbols t=3.213371 Tepoch=1344037114.429336
--> 3779-gdb-set env DYLD_NO_FIX_PREBINDING YES
-#  PBXGDB_MISetEnvCommand t=3.213447 Tepoch=1344037114.429412
--> 3780-gdb-set env SSH_AUTH_SOCK /tmp/launch-5QrILR/Listeners
-#  PBXGDB_MISetEnvCommand t=3.213511 Tepoch=1344037114.429476
--> 3781-gdb-set env GL_ENABLE_DEBUG_ATTACH YES
-#  PBXGDB_MISetEnvCommand t=3.213575 Tepoch=1344037114.429540
--> 3782-gdb-set env C_INCLUDE_PATH /include:/usr/include:usr/local/include:/opt/local/include:/sw/include:/Developer/usr/include:/usr/local/clang+llvm-2.9-x86_64-apple-darwin10/include:/usr/local/apr/include:/usr/local/llvm-gcc-4.2-2.9-x86_64-apple-darwin10/include:/usr/local/cuda/include:/usr/local/mysql/include:/usr/local/mysql-5.5.9-osx10.6-x86_64/include:/usr/local/php5/include
-#  PBXGDB_MISetEnvCommand t=3.213645 Tepoch=1344037114.429611
--> 3783-gdb-set env Apple_PubSub_Socket_Render /tmp/launch-hfiLYI/Render
-#  PBXGDB_MISetEnvCommand t=3.213709 Tepoch=1344037114.429674
--> 3784-gdb-set env NODE_PATH /Users/ericgallager/node_modules:/opt/local/lib/node_modules
-#  PBXGDB_MISetEnvCommand t=3.213776 Tepoch=1344037114.429741
--> 3785-gdb-set env DBUS_FINK_SESSION_BUS_SOCKET /tmp/launch-hIY3EQ/unix_domain_listener
-#  PBXGDB_MISetEnvCommand t=3.213839 Tepoch=1344037114.429804
--> 3786-gdb-set env COM_GOOGLE_CHROME_FRAMEWORK_SERVICE_PROCESS/USERS/ERICGALLAGER/LIBRARY/APPLICATION_SUPPORT/GOOGLE/CHROME_CANARY_SOCKET /tmp/launch-uNtj4n/ServiceProcessSocket
-#  PBXGDB_MISetEnvCommand t=3.214004 Tepoch=1344037114.429970
--> 3787-gdb-set env DYLD_FRAMEWORK_PATH /Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug
-#  PBXGDB_MISetEnvCommand t=3.214075 Tepoch=1344037114.430040
--> 3788-gdb-set env USERBREAK 1
-#  PBXGDB_MISetEnvCommand t=3.214138 Tepoch=1344037114.430103
--> 3789-gdb-set env GNUSTEP_SYSTEM_ROOT /opt/local/GNUstep/System
-#  PBXGDB_MISetEnvCommand t=3.214203 Tepoch=1344037114.430168
--> 3790-gdb-set env SHELL /bin/bash
-#  PBXGDB_MISetEnvCommand t=3.214267 Tepoch=1344037114.430233
--> 3791-gdb-set env DYLD_LIBRARY_PATH /Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug
-#  PBXGDB_MISetEnvCommand t=3.214336 Tepoch=1344037114.430301
--> 3792-gdb-set env PKG_CONFIG_PATH /usr/lib/pkgconfig:/usr/local/lib/pkgconfig:/opt/local/lib/pkgconfig:/sw/lib/pkgconfig:/lib/pkgconfig:/Developer/usr/lib/pkgconfig
-#  PBXGDB_MISetEnvCommand t=3.214400 Tepoch=1344037114.430365
--> 3793-gdb-set env NSUnbufferedIO YES
-#  PBXGDB_MISetEnvCommand t=3.214461 Tepoch=1344037114.430426
--> 3794-gdb-set env PATH /Developer/usr/bin:/bin:/sbin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/GNUstep/System/Tools:/sw/bin:/sw/sbin:/sw2/bootstrap/bin:/sw2/bootstrap/sbin:/usr/local/sbin:/Developer/Tools:/usr/local/tigcc/bin:/usr/local/texlive/2010basic/bin/universal-darwin:/usr/local/php5/bin:/usr/local/mysql-5.5.9-osx10.6-x86_64/bin:/usr/local/mysql/bin:/Developer/usr/bin:/Developer/usr/sbin:/Developer/usr/local/bin:/usr/local/heroku/bin:/usr/local/git/bin:/usr/local/foreman/bin:/usr/local/flexnetserver:/usr/local/clamXav/bin:/opt/nova/bin:/opt/local/lib/erlang/bin:/Users/ericgallager/Downloads/WebKit-r101776/Tools/CygwinDownloader/bin:/Users/ericgallager/Downloads/nacl_sdk/pepper_15/toolchain/mac_x86_newlib/bin:/Users/ericgallager/Downloads/nacl_sdk/pepper_15/toolchain/mac_x86_newlib/bin:/usr/local/ActivePerl-5.14/bin:/usr/local/PDK/bin:/opt/local/GNUstep/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/X11/bin:/usr/X11/lib/X11/xinit:/opt/X11/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/bin:/Developer/GPU\ Computing/CUDALibraries/bin/darwin/release:/opt/local/src/go/go-57.1/bin:/opt/local/share/java/android-sdk-mac_x86/platform-tools:/usr/local/sdcc/bin:/usr/X11R6/bin:/Users/localadmin/.local/bin:/Users/ericgallager/go/bin:/Users/ericgallager/.gem/ruby/1.8/bin:/usr/local/osxbook/efi/gcc-4.1.0-glibc-2.3.6/i686-osxbook-linux-gnu/bin
-#  PBXGDB_MISetEnvCommand t=3.214593 Tepoch=1344037114.430558
--> 3795-gdb-set env DISPLAY /tmp/launch-cImdNc/org.macosforge.xquartz:0
-#  PBXGDB_MISetEnvCommand t=3.214665 Tepoch=1344037114.430630
--> 3796-gdb-set env DBUS_LAUNCHD_SESSION_BUS_SOCKET /tmp/launch-Uwhsw1/unix_domain_listener
-#  PBXGDB_MISetEnvCommand t=3.214886 Tepoch=1344037114.430851
--> 3797-gdb-set env COMMAND_MODE unix2003
-#  PBXGDB_MISetEnvCommand t=3.214961 Tepoch=1344037114.430926
--> 3798-gdb-set env HOME /Users/ericgallager
-#  PBXGDB_MISetEnvCommand t=3.215154 Tepoch=1344037114.431119
--> 3799-gdb-set env TMPDIR /var/folders/2V/2VxMt4WCF5avqTEcHvhx9k+++TI/-Tmp-/
-#  PBXGDB_MISetEnvCommand t=3.216211 Tepoch=1344037114.432176
--> 3800-gdb-set env USER ericgallager
-#  PBXGDB_MISetEnvCommand t=3.216270 Tepoch=1344037114.432235
--> 3801-gdb-set env GOROOT /opt/local/src/go/go-57.1
-#  PBXGDB_MISetEnvCommand t=3.216325 Tepoch=1344037114.432290
--> 3802-gdb-set env LOGNAME ericgallager
-#  PBXGDB_MISetEnvCommand t=3.216381 Tepoch=1344037114.432346
--> 3803-gdb-set env CVS_RSH ssh
-#  PBXGDB_MISetEnvCommand t=3.216434 Tepoch=1344037114.432399
--> 3804-gdb-set env __CF_USER_TEXT_ENCODING 0x1F5:0:0
-#  PBXGDB_MISetEnvCommand t=3.216487 Tepoch=1344037114.432452
--> 3805-gdb-set env SSH_ASKPASS /Developer/Library/PrivateFrameworks/DevToolsInterface.framework/Resources/Xcode SSHPassKey
-#  PBXGDB_MISetEnvCommand t=3.216542 Tepoch=1344037114.432507
--> 3806-gdb-set env DYLD_NEW_LOCAL_SHARED_REGIONS YES
-#  PBXGDB_MISetEnvCommand t=3.216599 Tepoch=1344037114.432564
-#  Enqueue seq in Command Q: <PBXGDB_GenericMICommandSequence: 0x201dbe180> t=3.216729 Tepoch=1344037114.432694
-#  Executing Sequence: <PBXGDB_GenericMICommandSequence: 0x201dbe180> t=3.216767 Tepoch=1344037114.432732
--> 3807-gdb-set sharedlibrary preload-libraries 0
-#  PBXGDB_MIGDBSetCommand t=3.216827 Tepoch=1344037114.432792
-#  Enqueue seq in Command Q: <PBXGDB_GenericMICommandSequence: 0x201db64c0> t=3.216893 Tepoch=1344037114.432858
-#  Enqueue seq in Command Q: <PBXGDB_MISetSharedLibraryImageSymboslLevelToContainerSequence: 0x201db7440> t=3.216949 Tepoch=1344037114.432914
-#  Enqueue seq in Command Q: <PBXGDB_InferiorAutoStartDyldSequence: 0x201db7700> t=3.216998 Tepoch=1344037114.432963
--> 3809tty /dev/ttys004
-#  PBXGDB_MISetTTYCommand t=3.217046 Tepoch=1344037114.433011
-#  Enqueue seq in Command Q: <PBXGDB_GenericMICommandSequence: 0x201d8f840> t=3.217098 Tepoch=1344037114.433063
-#  Enqueue seq in Command Q: <PBXGDB_FixAndContinueIsSupportedSequence: 0x201dac4e0> t=3.217140 Tepoch=1344037114.433105
-#  Enqueue seq in Command Q: <PBXGDB_TurnBreakpointsOnOffSequence: 0x201d0ef00> t=3.217856 Tepoch=1344037114.433821
--> 3811-exec-arguments 
-#  PBXGDB_MISetArgumentsCommand t=3.217925 Tepoch=1344037114.433890
-#  Enqueue seq in Command Q: <PBXGDB_RegisterDataValueSetupSequence: 0x20108abe0> t=3.217974 Tepoch=1344037114.433939
-#  Enqueue seq in State Changing Q: <PBXGDB_RunControlSequence: 0x201090b60> t=3.218012 Tepoch=1344037114.433977
+-> 224-gdb-version
+#  PBXGDB_MIGDBVersionCommand t=0.370140 Tepoch=1344109316.432789
+-> 225-gdb-set auto-raise-load-levels 1
+#  PBXGDB_MISetAutoRaiseSymbols t=0.370244 Tepoch=1344109316.432893
+-> 226-gdb-set env DYLD_NO_FIX_PREBINDING YES
+#  PBXGDB_MISetEnvCommand t=0.370320 Tepoch=1344109316.432970
+-> 227-gdb-set env SSH_AUTH_SOCK /tmp/launch-5QrILR/Listeners
+#  PBXGDB_MISetEnvCommand t=0.370391 Tepoch=1344109316.433040
+-> 228-gdb-set env GL_ENABLE_DEBUG_ATTACH YES
+#  PBXGDB_MISetEnvCommand t=0.370444 Tepoch=1344109316.433093
+-> 229-gdb-set env C_INCLUDE_PATH /include:/usr/include:usr/local/include:/opt/local/include:/sw/include:/Developer/usr/include:/usr/local/clang+llvm-2.9-x86_64-apple-darwin10/include:/usr/local/apr/include:/usr/local/llvm-gcc-4.2-2.9-x86_64-apple-darwin10/include:/usr/local/cuda/include:/usr/local/mysql/include:/usr/local/mysql-5.5.9-osx10.6-x86_64/include:/usr/local/php5/include
+#  PBXGDB_MISetEnvCommand t=0.370506 Tepoch=1344109316.433155
+-> 230-gdb-set env Apple_PubSub_Socket_Render /tmp/launch-hfiLYI/Render
+#  PBXGDB_MISetEnvCommand t=0.370569 Tepoch=1344109316.433218
+-> 231-gdb-set env NODE_PATH /Users/ericgallager/node_modules:/opt/local/lib/node_modules
+#  PBXGDB_MISetEnvCommand t=0.370654 Tepoch=1344109316.433303
+-> 232-gdb-set env DBUS_FINK_SESSION_BUS_SOCKET /tmp/launch-hIY3EQ/unix_domain_listener
+#  PBXGDB_MISetEnvCommand t=0.370711 Tepoch=1344109316.433360
+-> 233-gdb-set env COM_GOOGLE_CHROME_FRAMEWORK_SERVICE_PROCESS/USERS/ERICGALLAGER/LIBRARY/APPLICATION_SUPPORT/GOOGLE/CHROME_CANARY_SOCKET /tmp/launch-uNtj4n/ServiceProcessSocket
+#  PBXGDB_MISetEnvCommand t=0.370771 Tepoch=1344109316.433420
+-> 234-gdb-set env DYLD_FRAMEWORK_PATH /Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug
+#  PBXGDB_MISetEnvCommand t=0.370851 Tepoch=1344109316.433500
+-> 235-gdb-set env USERBREAK 1
+#  PBXGDB_MISetEnvCommand t=0.370914 Tepoch=1344109316.433563
+-> 236-gdb-set env GNUSTEP_SYSTEM_ROOT /opt/local/GNUstep/System
+#  PBXGDB_MISetEnvCommand t=0.370966 Tepoch=1344109316.433615
+-> 237-gdb-set env SHELL /bin/bash
+#  PBXGDB_MISetEnvCommand t=0.371037 Tepoch=1344109316.433686
+-> 238-gdb-set env DYLD_LIBRARY_PATH /Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug
+#  PBXGDB_MISetEnvCommand t=0.371093 Tepoch=1344109316.433742
+-> 239-gdb-set env PKG_CONFIG_PATH /usr/lib/pkgconfig:/usr/local/lib/pkgconfig:/opt/local/lib/pkgconfig:/sw/lib/pkgconfig:/lib/pkgconfig:/Developer/usr/lib/pkgconfig
+#  PBXGDB_MISetEnvCommand t=0.371166 Tepoch=1344109316.433815
+-> 240-gdb-set env NSUnbufferedIO YES
+#  PBXGDB_MISetEnvCommand t=0.371235 Tepoch=1344109316.433884
+-> 241-gdb-set env PATH /Developer/usr/bin:/bin:/sbin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/GNUstep/System/Tools:/sw/bin:/sw/sbin:/sw2/bootstrap/bin:/sw2/bootstrap/sbin:/usr/local/sbin:/Developer/Tools:/usr/local/tigcc/bin:/usr/local/texlive/2010basic/bin/universal-darwin:/usr/local/php5/bin:/usr/local/mysql-5.5.9-osx10.6-x86_64/bin:/usr/local/mysql/bin:/Developer/usr/bin:/Developer/usr/sbin:/Developer/usr/local/bin:/usr/local/heroku/bin:/usr/local/git/bin:/usr/local/foreman/bin:/usr/local/flexnetserver:/usr/local/clamXav/bin:/opt/nova/bin:/opt/local/lib/erlang/bin:/Users/ericgallager/Downloads/WebKit-r101776/Tools/CygwinDownloader/bin:/Users/ericgallager/Downloads/nacl_sdk/pepper_15/toolchain/mac_x86_newlib/bin:/Users/ericgallager/Downloads/nacl_sdk/pepper_15/toolchain/mac_x86_newlib/bin:/usr/local/ActivePerl-5.14/bin:/usr/local/PDK/bin:/opt/local/GNUstep/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/X11/bin:/usr/X11/lib/X11/xinit:/opt/X11/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/bin:/Developer/GPU\ Computing/CUDALibraries/bin/darwin/release:/opt/local/src/go/go-57.1/bin:/opt/local/share/java/android-sdk-mac_x86/platform-tools:/usr/local/sdcc/bin:/usr/X11R6/bin:/Users/localadmin/.local/bin:/Users/ericgallager/go/bin:/Users/ericgallager/.gem/ruby/1.8/bin:/usr/local/osxbook/efi/gcc-4.1.0-glibc-2.3.6/i686-osxbook-linux-gnu/bin
+#  PBXGDB_MISetEnvCommand t=0.391113 Tepoch=1344109316.453763
+-> 242-gdb-set env DISPLAY /tmp/launch-cImdNc/org.macosforge.xquartz:0
+#  PBXGDB_MISetEnvCommand t=0.395989 Tepoch=1344109316.458638
+-> 243-gdb-set env DBUS_LAUNCHD_SESSION_BUS_SOCKET /tmp/launch-Uwhsw1/unix_domain_listener
+#  PBXGDB_MISetEnvCommand t=0.396376 Tepoch=1344109316.459025
+-> 244-gdb-set env COMMAND_MODE unix2003
+#  PBXGDB_MISetEnvCommand t=0.396746 Tepoch=1344109316.459396
+-> 245-gdb-set env HOME /Users/ericgallager
+#  PBXGDB_MISetEnvCommand t=0.396972 Tepoch=1344109316.459621
+-> 246-gdb-set env TMPDIR /var/folders/2V/2VxMt4WCF5avqTEcHvhx9k+++TI/-Tmp-/
+#  PBXGDB_MISetEnvCommand t=0.397248 Tepoch=1344109316.459897
+-> 247-gdb-set env USER ericgallager
+#  PBXGDB_MISetEnvCommand t=0.397507 Tepoch=1344109316.460156
+-> 248-gdb-set env GOROOT /opt/local/src/go/go-57.1
+#  PBXGDB_MISetEnvCommand t=0.397720 Tepoch=1344109316.460369
+-> 249-gdb-set env LOGNAME ericgallager
+#  PBXGDB_MISetEnvCommand t=0.397933 Tepoch=1344109316.460582
+-> 250-gdb-set env CVS_RSH ssh
+#  PBXGDB_MISetEnvCommand t=0.398141 Tepoch=1344109316.460790
+-> 251-gdb-set env __CF_USER_TEXT_ENCODING 0x1F5:0:0
+#  PBXGDB_MISetEnvCommand t=0.439454 Tepoch=1344109316.502103
+-> 252-gdb-set env SSH_ASKPASS /Developer/Library/PrivateFrameworks/DevToolsInterface.framework/Resources/Xcode SSHPassKey
+#  PBXGDB_MISetEnvCommand t=0.439660 Tepoch=1344109316.502309
+-> 253-gdb-set env DYLD_NEW_LOCAL_SHARED_REGIONS YES
+#  PBXGDB_MISetEnvCommand t=0.439947 Tepoch=1344109316.502596
+#  Enqueue seq in Command Q: <PBXGDB_SetupSharedLibrarySequence: 0x2005d3460> t=0.440254 Tepoch=1344109316.502903
+#  Executing Sequence: <PBXGDB_SetupSharedLibrarySequence: 0x2005d3460> t=0.440293 Tepoch=1344109316.502942
+-> 255-gdb-set inferior-auto-start-cfm off
+#  PBXGDB_MISetLoadCFMInfoCommand t=0.440386 Tepoch=1344109316.503035
+-> 254-gdb-set sharedLibrary load-rules dyld ".*AppKit.*" all dyld ".*libobjc.*" all dyld ".*CarbonDataFormatters.*" all dyld ".*libauto.*" all dyld ".*PBGDBIntrospectionSupport.*" all dyld ".*CFDataFormatters.*" all dyld ".*CoreFoundation.*" extern dyld ".*libSystem.*" all dyld ".*/usr/lib/dyld.*" all dyld ".*Foundation.*" all dyld "/System/Library/Frameworks\\\\|/System/Library/PrivateFrameworks\\\\|/usr/lib" extern dyld ".*" extern exec ".*" extern 
+#  PBXGDB_MISetSharedLibraryLoadSymbolsCommand t=0.487262 Tepoch=1344109316.549912
+-> 256tty /dev/ttys003
+#  PBXGDB_MISetTTYCommand t=0.488163 Tepoch=1344109316.550812
+#  Enqueue seq in Command Q: <PBXGDB_GenericMICommandSequence: 0x20063e0e0> t=0.488403 Tepoch=1344109316.551052
+#  Enqueue seq in Command Q: <PBXGDB_FixAndContinueIsSupportedSequence: 0x20061baa0> t=0.488459 Tepoch=1344109316.551108
+#  Enqueue seq in Command Q: <PBXGDB_NewBreakpointSequence: 0x2018219c0> t=0.492563 Tepoch=1344109316.555213
+#  Enqueue seq in Command Q: <PBXGDB_NewBreakpointSequence: 0x200559220> t=0.492699 Tepoch=1344109316.555348
 <- ~"GNU gdb 6.3.50-20050815 (Apple version gdb-1515) (Sat Jan 15 08:33:48 UTC 2011)\n"
 <- ~"Copyright 2004 Free Software Foundation, Inc.\n"
 <- ~"GDB is free software, covered by the GNU General Public License, and you are\nwelcome to change it and/or distribute copies of it under certain conditions.\nType \"show copying\" to see the conditions.\nThere is absolutely no warranty for GDB.  Type \"show warranty\" for details.\n"
 <- ~"This GDB was configured as \"x86_64-apple-darwin\"."
-<- 3777^done,version="6.3.50-20050815 (Apple version gdb-1515)",rc_version="1515",target="x86_64-apple-darwin",build-date="Sat Jan 15 08:33:48 UTC 2011",time={wallclock="0.00042",user="0.00027",system="0.00006",start="1344037114.431033",end="1344037114.431450"}
-#  processing result t=3.218715 Tepoch=1344037114.434680
+<- 224^done,version="6.3.50-20050815 (Apple version gdb-1515)",rc_version="1515",target="x86_64-apple-darwin",build-date="Sat Jan 15 08:33:48 UTC 2011",time={wallclock="0.00027",user="0.00025",system="0.00002",start="1344109316.434218",end="1344109316.434486"}
+#  processing result t=0.517993 Tepoch=1344109316.580642
 <- (gdb) 
-<- 3778^done,time={wallclock="0.00003",user="0.00003",system="0.00000",start="1344037114.431530",end="1344037114.431560"}
-#  processing result t=3.218825 Tepoch=1344037114.434790
+<- 225^done,time={wallclock="0.00003",user="0.00003",system="0.00000",start="1344109316.434559",end="1344109316.434590"}
+#  processing result t=0.518121 Tepoch=1344109316.580770
 <- (gdb) 
-<- 3779^done,time={wallclock="0.00006",user="0.00003",system="0.00003",start="1344037114.431632",end="1344037114.431693"}
-#  processing result t=3.254267 Tepoch=1344037114.470232
+<- 226^done,time={wallclock="0.00003",user="0.00003",system="0.00001",start="1344109316.434657",end="1344109316.434692"}
+#  processing result t=0.678039 Tepoch=1344109316.740688
 <- (gdb) 
-<- 3780^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.431786",end="1344037114.431797"}
-#  processing result t=3.254381 Tepoch=1344037114.470346
+<- 227^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.434780",end="1344109316.434790"}
+#  processing result t=0.678208 Tepoch=1344109316.740857
 <- (gdb) 
-<- 3781^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.431869",end="1344037114.431878"}
-#  processing result t=3.254480 Tepoch=1344037114.470445
+<- 228^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.434856",end="1344109316.434864"}
+#  processing result t=0.678333 Tepoch=1344109316.740982
 <- (gdb) 
-<- 3782^done,time={wallclock="0.00002",user="0.00001",system="0.00000",start="1344037114.432394",end="1344037114.432409"}
-#  processing result t=3.254583 Tepoch=1344037114.470548
+<- 229^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.435325",end="1344109316.435337"}
+#  processing result t=0.678456 Tepoch=1344109316.741105
 <- (gdb) 
-<- 3783^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.432518",end="1344037114.432528"}
-#  processing result t=3.254684 Tepoch=1344037114.470649
+<- 230^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.435434",end="1344109316.435444"}
+#  processing result t=0.678686 Tepoch=1344109316.741336
 <- (gdb) 
-<- 3784^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.432655",end="1344037114.432665"}
-#  processing result t=3.254782 Tepoch=1344037114.470747
+<- 231^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.435609",end="1344109316.435619"}
+#  processing result t=0.678815 Tepoch=1344109316.741464
 <- (gdb) 
-<- 3785^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.432789",end="1344037114.432799"}
-#  processing result t=3.254880 Tepoch=1344037114.470845
+<- 232^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.435738",end="1344109316.435747"}
+#  processing result t=0.678938 Tepoch=1344109316.741587
 <- (gdb) 
-<- 3786^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.433035",end="1344037114.433046"}
-#  processing result t=3.254976 Tepoch=1344037114.470941
+<- 233^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.435968",end="1344109316.435979"}
+#  processing result t=0.679061 Tepoch=1344109316.741710
 <- (gdb) 
-<- 3787^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.433233",end="1344037114.433243"}
-#  processing result t=3.255070 Tepoch=1344037114.471035
+<- 234^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.436139",end="1344109316.436148"}
+#  processing result t=0.679347 Tepoch=1344109316.741996
 <- (gdb) 
-<- 3788^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.433296",end="1344037114.433306"}
-#  processing result t=3.255167 Tepoch=1344037114.471132
+<- 235^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.436197",end="1344109316.436206"}
+#  processing result t=0.679685 Tepoch=1344109316.742334
 <- (gdb) 
-<- 3789^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.433401",end="1344037114.433411"}
-#  processing result t=3.255266 Tepoch=1344037114.471231
+<- 236^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.436294",end="1344109316.436303"}
+#  processing result t=0.679812 Tepoch=1344109316.742461
 <- (gdb) 
-<- 3790^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.433481",end="1344037114.433490"}
-#  processing result t=3.255370 Tepoch=1344037114.471335
+<- 237^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.436356",end="1344109316.436365"}
+#  processing result t=0.679936 Tepoch=1344109316.742586
 <- (gdb) 
-<- 3791^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.433740",end="1344037114.433753"}
-#  processing result t=3.255467 Tepoch=1344037114.471432
+<- 238^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.436555",end="1344109316.436566"}
+#  processing result t=0.680059 Tepoch=1344109316.742708
 <- (gdb) 
-<- 3792^done,time={wallclock="0.00002",user="0.00001",system="0.00001",start="1344037114.433978",end="1344037114.433999"}
-#  processing result t=3.255560 Tepoch=1344037114.471525
+<- 239^done,time={wallclock="0.00002",user="0.00001",system="0.00002",start="1344109316.436774",end="1344109316.436797"}
+#  processing result t=0.681185 Tepoch=1344109316.743834
 <- (gdb) 
-<- 3793^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.434058",end="1344037114.434067"}
-#  processing result t=3.255657 Tepoch=1344037114.471622
+<- 240^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.436857",end="1344109316.436865"}
+#  processing result t=0.681709 Tepoch=1344109316.744358
 <- (gdb) 
-<- 3794^done,time={wallclock="0.00002",user="0.00002",system="0.00001",start="1344037114.435879",end="1344037114.435900"}
-#  processing result t=3.263077 Tepoch=1344037114.479042
+<- 241^done,time={wallclock="0.00008",user="0.00007",system="0.00002",start="1344109316.458310",end="1344109316.458394"}
+#  processing result t=0.682454 Tepoch=1344109316.745103
 <- (gdb) 
-<- 3795^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.436001",end="1344037114.436011"}
-#  processing result t=3.263223 Tepoch=1344037114.479188
+<- 242^done,time={wallclock="0.00002",user="0.00002",system="0.00000",start="1344109316.458920",end="1344109316.458941"}
+#  processing result t=0.682595 Tepoch=1344109316.745244
 <- (gdb) 
-<- 3796^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.436130",end="1344037114.436139"}
-#  processing result t=3.263377 Tepoch=1344037114.479342
+<- 243^done,time={wallclock="0.00002",user="0.00001",system="0.00000",start="1344109316.459309",end="1344109316.459325"}
+#  processing result t=0.682723 Tepoch=1344109316.745372
 <- (gdb) 
-<- 3797^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.436199",end="1344037114.436208"}
-#  processing result t=3.263491 Tepoch=1344037114.479457
+<- 244^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.459542",end="1344109316.459556"}
+#  processing result t=0.682849 Tepoch=1344109316.745498
 <- (gdb) 
-<- 3798^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.436272",end="1344037114.436281"}
-#  processing result t=3.263590 Tepoch=1344037114.479555
+<- 245^done,time={wallclock="0.00002",user="0.00001",system="0.00000",start="1344109316.459773",end="1344109316.459788"}
+#  processing result t=0.682978 Tepoch=1344109316.745627
 <- (gdb) 
-<- 3799^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.436384",end="1344037114.436392"}
-#  processing result t=3.263712 Tepoch=1344037114.479677
+<- 246^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.460074",end="1344109316.460086"}
+#  processing result t=0.683100 Tepoch=1344109316.745750
 <- (gdb) 
-<- 3800^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.436448",end="1344037114.436457"}
-#  processing result t=3.263871 Tepoch=1344037114.479836
+<- 247^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.460282",end="1344109316.460294"}
+#  processing result t=0.683223 Tepoch=1344109316.745872
 <- (gdb) 
-<- 3801^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.436530",end="1344037114.436539"}
-#  processing result t=3.264052 Tepoch=1344037114.480017
+<- 248^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.460512",end="1344109316.460525"}
+#  processing result t=0.683370 Tepoch=1344109316.746019
 <- (gdb) 
-<- 3802^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.436599",end="1344037114.436607"}
-#  processing result t=3.264164 Tepoch=1344037114.480129
+<- 249^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.460713",end="1344109316.460724"}
+#  processing result t=0.683493 Tepoch=1344109316.746142
 <- (gdb) 
-<- 3803^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.436656",end="1344037114.436665"}
-#  processing result t=3.264258 Tepoch=1344037114.480223
+<- 250^done,time={wallclock="0.00006",user="0.00006",system="0.00000",start="1344109316.501933",end="1344109316.501995"}
+#  processing result t=0.683615 Tepoch=1344109316.746264
 <- (gdb) 
-<- 3804^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.436740",end="1344037114.436749"}
-#  processing result t=3.264362 Tepoch=1344037114.480327
+<- 251^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.502240",end="1344109316.502252"}
+#  processing result t=0.683744 Tepoch=1344109316.746393
 <- (gdb) 
-<- 3805^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.436905",end="1344037114.436913"}
-#  processing result t=3.264484 Tepoch=1344037114.480449
+<- 252^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.502518",end="1344109316.502529"}
+#  processing result t=0.683869 Tepoch=1344109316.746518
 <- (gdb) 
-<- 3806^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.436988",end="1344037114.436997"}
-#  processing result t=3.264582 Tepoch=1344037114.480547
+<- 253^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109316.502717",end="1344109316.502729"}
+#  processing result t=0.684000 Tepoch=1344109316.746649
 <- (gdb) 
-<- 3807^done,time={wallclock="0.00004",user="0.00001",system="0.00003",start="1344037114.437067",end="1344037114.437110"}
-#  processing result t=3.264678 Tepoch=1344037114.480643
-#  didFinish Sequence: <PBXGDB_GenericMICommandSequence: 0x201dbe180> t=3.264720 Tepoch=1344037114.480685
-#  Executing Sequence: <PBXGDB_GenericMICommandSequence: 0x201db64c0> t=3.264752 Tepoch=1344037114.480718
--> 3808-gdb-set minimal-signal-handling 1
-#  PBXGDB_MISetSignalHandlingMode_Run t=3.266409 Tepoch=1344037114.482374
+<- 255^done,time={wallclock="0.00002",user="0.00001",system="0.00001",start="1344109316.503155",end="1344109316.503175"}
+#  processing result t=0.684124 Tepoch=1344109316.746773
 <- (gdb) 
-<- &"tty /dev/ttys004\n"
-<- 3809^done
-#  processing result t=3.266542 Tepoch=1344037114.482507
+<- 254^done,time={wallclock="0.00007",user="0.00007",system="0.00001",start="1344109316.550597",end="1344109316.550670"}
+#  processing result t=0.684460 Tepoch=1344109316.747109
+-> 258sharedlibrary apply-load-rules all
+#  PBXGDB_MISharedLibraryApplyLoadRulesCommand t=0.685109 Tepoch=1344109316.747758
 <- (gdb) 
-<- 3811^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.437209",end="1344037114.437216"}
-#  processing result t=3.266649 Tepoch=1344037114.482614
+<- &"tty /dev/ttys003\n"
+<- 256^done
+#  processing result t=0.686743 Tepoch=1344109316.749392
 <- (gdb) 
-<- 3808^done,time={wallclock="0.00005",user="0.00005",system="0.00000",start="1344037114.483026",end="1344037114.483074"}
-#  processing result t=3.268268 Tepoch=1344037114.484233
-#  didFinish Sequence: <PBXGDB_GenericMICommandSequence: 0x201db64c0> t=3.268324 Tepoch=1344037114.484289
-#  Executing Sequence: <PBXGDB_MISetSharedLibraryImageSymboslLevelToContainerSequence: 0x201db7440> t=3.268360 Tepoch=1344037114.484325
--> 3812-gdb-set sharedlibrary load-rules \".*\" \".*\" container
-#  PBXGDB_MISetSharedLibraryLoadContainerLevelCommand t=3.268628 Tepoch=1344037114.484593
+<- &"sharedlibrary apply-load-rules all\n"
+<- 258^done
+#  processing result t=0.696228 Tepoch=1344109316.758877
+#  didFinish Sequence: <PBXGDB_SetupSharedLibrarySequence: 0x2005d3460> t=0.696286 Tepoch=1344109316.758935
+#  Executing Sequence: <PBXGDB_GenericMICommandSequence: 0x20063e0e0> t=0.696323 Tepoch=1344109316.758972
+-> 257-file-exec-and-symbols "/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug/Ch9_Problem5_linked"
+#  PBXGDB_MILoadExecutableCommand t=0.697703 Tepoch=1344109316.760352
 <- (gdb) 
-<- 3812^done,time={wallclock="0.00004",user="0.00004",system="0.00000",start="1344037114.484764",end="1344037114.484805"}
-#  processing result t=3.269165 Tepoch=1344037114.485130
-#  didFinish Sequence: <PBXGDB_MISetSharedLibraryImageSymboslLevelToContainerSequence: 0x201db7440> t=3.269210 Tepoch=1344037114.485175
-#  Executing Sequence: <PBXGDB_InferiorAutoStartDyldSequence: 0x201db7700> t=3.269246 Tepoch=1344037114.485212
--> 3813-gdb-set inferior-auto-start-dyld 0
-#  PBXGDB_MIGDBSetCommand t=3.269308 Tepoch=1344037114.485274
+<- 257^done,time={wallclock="0.60080",user="0.05209",system="0.05439",start="1344109316.760652",end="1344109317.361451"}
+#  processing result t=1.299404 Tepoch=1344109317.362053
+#  didFinish Sequence: <PBXGDB_GenericMICommandSequence: 0x20063e0e0> t=1.300723 Tepoch=1344109317.363372
+#  Executing Sequence: <PBXGDB_FixAndContinueIsSupportedSequence: 0x20061baa0> t=1.300778 Tepoch=1344109317.363428
+-> 259-mi-verify-command file-fix-file-is-grooved
+#  PBXGDB_MIVerifyCommandCommand t=1.300834 Tepoch=1344109317.363483
 <- (gdb) 
-<- 3813^done,time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344037114.485390",end="1344037114.485403"}
-#  processing result t=3.269735 Tepoch=1344037114.485700
-#  didFinish Sequence: <PBXGDB_InferiorAutoStartDyldSequence: 0x201db7700> t=3.269776 Tepoch=1344037114.485741
-#  Executing Sequence: <PBXGDB_GenericMICommandSequence: 0x201d8f840> t=3.269814 Tepoch=1344037114.485779
--> 3810-file-exec-and-symbols "/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug/Ch9_Problem5"
-#  PBXGDB_MILoadExecutableCommand t=3.270868 Tepoch=1344037114.486833
+<- 259^done,name="file-fix-file-is-grooved",defined="true",implemented="true",time={wallclock="0.00004",user="0.00003",system="0.00001",start="1344109317.370121",end="1344109317.370159"}
+#  processing result t=1.307867 Tepoch=1344109317.370516
+-> 260-file-fix-file-is-grooved
+#  PBXGDB_MIFixAndContinueSupportedCommand t=1.307942 Tepoch=1344109317.370591
 <- (gdb) 
-<- 3810^done,time={wallclock="0.00361",user="0.00039",system="0.00203",start="1344037114.487094",end="1344037114.490701"}
-#  processing result t=3.275963 Tepoch=1344037114.491928
-#  didFinish Sequence: <PBXGDB_GenericMICommandSequence: 0x201d8f840> t=3.277376 Tepoch=1344037114.493342
-#  Executing Sequence: <PBXGDB_FixAndContinueIsSupportedSequence: 0x201dac4e0> t=3.277435 Tepoch=1344037114.493400
--> 3814-mi-verify-command file-fix-file-is-grooved
-#  PBXGDB_MIVerifyCommandCommand t=3.277589 Tepoch=1344037114.493554
+<- 260^done,supported="0",details="Groove is gone.",time={wallclock="0.00004",user="0.00003",system="0.00001",start="1344109317.370949",end="1344109317.370985"}
+#  processing result t=1.308659 Tepoch=1344109317.371308
+#  didFinish Sequence: <PBXGDB_FixAndContinueIsSupportedSequence: 0x20061baa0> t=1.308722 Tepoch=1344109317.371371
+#  Executing Sequence: <PBXGDB_NewBreakpointSequence: 0x2018219c0> t=1.308767 Tepoch=1344109317.371416
+#  Passed verification of state before break create command t=1.308866 Tepoch=1344109317.371515
+-> 261-break-insert -f "\"Ch9_Problem5_main.c\":123"
+#  PBXGDB_MICreateFileBreakpointCommand t=1.308916 Tepoch=1344109317.371565
 <- (gdb) 
-<- 3814^done,name="file-fix-file-is-grooved",defined="true",implemented="true",time={wallclock="0.00003",user="0.00003",system="0.00000",start="1344037114.502868",end="1344037114.502903"}
-#  processing result t=3.287375 Tepoch=1344037114.503340
--> 3815-file-fix-file-is-grooved
-#  PBXGDB_MIFixAndContinueSupportedCommand t=3.287449 Tepoch=1344037114.503414
+<- 261^done,bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="\"Ch9_Problem5_main.c\":123",times="0"},time={wallclock="0.00016",user="0.00013",system="0.00003",start="1344109317.371953",end="1344109317.372116"}
+#  processing result t=1.309803 Tepoch=1344109317.372452
+#  didFinish Sequence: <PBXGDB_NewBreakpointSequence: 0x2018219c0> t=1.309864 Tepoch=1344109317.372513
+#  Executing Sequence: <PBXGDB_NewBreakpointSequence: 0x200559220> t=1.309899 Tepoch=1344109317.372548
+#  Passed verification of state before break create command t=1.309952 Tepoch=1344109317.372601
+-> 262-break-insert -f "\"Ch9_Problem5_main.c\":119"
+#  PBXGDB_MICreateFileBreakpointCommand t=1.309995 Tepoch=1344109317.372645
 <- (gdb) 
-<- 3815^done,supported="0",details="Groove is gone.",time={wallclock="0.00006",user="0.00002",system="0.00004",start="1344037114.503557",end="1344037114.503612"}
-#  processing result t=3.288018 Tepoch=1344037114.503983
-#  didFinish Sequence: <PBXGDB_FixAndContinueIsSupportedSequence: 0x201dac4e0> t=3.288070 Tepoch=1344037114.504035
-#  Executing Sequence: <PBXGDB_TurnBreakpointsOnOffSequence: 0x201d0ef00> t=3.288106 Tepoch=1344037114.504071
--> 3816-break-disable
-#  PBXGDB_MICommand t=3.288211 Tepoch=1344037114.504177
+<- 262^done,bkpt={number="2",type="breakpoint",disp="keep",enabled="y",addr="<PENDING>",pending="\"Ch9_Problem5_main.c\":119",times="0"},time={wallclock="0.00007",user="0.00007",system="0.00001",start="1344109317.372917",end="1344109317.372991"}
+#  processing result t=1.310608 Tepoch=1344109317.373257
+-> 263-exec-arguments 
+#  PBXGDB_MISetArgumentsCommand t=1.311261 Tepoch=1344109317.373910
+#  Enqueue seq in Command Q: <PBXGDB_RegisterDataValueSetupSequence: 0x2006e1580> t=1.311319 Tepoch=1344109317.373968
+#  Enqueue seq in State Changing Q: <PBXGDB_RunControlSequence: 0x2006e6160> t=1.311359 Tepoch=1344109317.374008
+#  didFinish Sequence: <PBXGDB_NewBreakpointSequence: 0x200559220> t=1.311389 Tepoch=1344109317.374038
+#  Executing Sequence: <PBXGDB_RegisterDataValueSetupSequence: 0x2006e1580> t=1.311422 Tepoch=1344109317.374071
+-> 264-data-list-register-names
+#  PBXGDB_MIGetRegisterNames t=1.311466 Tepoch=1344109317.374115
 <- (gdb) 
-<- 3816^done,time={wallclock="0.00002",user="0.00002",system="0.00000",start="1344037114.504273",end="1344037114.504292"}
-#  processing result t=3.288615 Tepoch=1344037114.504580
-#  didFinish Sequence: <PBXGDB_TurnBreakpointsOnOffSequence: 0x201d0ef00> t=3.288659 Tepoch=1344037114.504624
-#  Executing Sequence: <PBXGDB_RegisterDataValueSetupSequence: 0x20108abe0> t=3.288694 Tepoch=1344037114.504659
--> 3817-data-list-register-names
-#  PBXGDB_MIGetRegisterNames t=3.288740 Tepoch=1344037114.504705
+<- 263^done,time={wallclock="0.00003",user="0.00003",system="0.00000",start="1344109317.374429",end="1344109317.374464"}
+#  processing result t=1.312328 Tepoch=1344109317.374977
 <- (gdb) 
-<- 3817^done,register-names=["rax","rbx","rcx","rdx","rsi","rdi","rbp","rsp","r8","r9","r10","r11","r12","r13","r14","r15","rip","eflags","cs","ss","ds","es","fs","gs","st0","st1","st2","st3","st4","st5","st6","st7","fctrl","fstat","ftag","fiseg","fioff","foseg","fooff","fop","xmm0","xmm1","xmm2","xmm3","xmm4","xmm5","xmm6","xmm7","xmm8","xmm9","xmm10","xmm11","xmm12","xmm13","xmm14","xmm15","mxcsr"],time={wallclock="0.00016",user="0.00016",system="0.00000",start="1344037114.504808",end="1344037114.504971"}
-#  processing result t=3.289435 Tepoch=1344037114.505400
-#  didFinish Sequence: <PBXGDB_RegisterDataValueSetupSequence: 0x20108abe0> t=3.649136 Tepoch=1344037114.865101
-#  Executing Sequence: <PBXGDB_RunControlSequence: 0x201090b60> t=3.649211 Tepoch=1344037114.865176
+<- 264^done,register-names=["rax","rbx","rcx","rdx","rsi","rdi","rbp","rsp","r8","r9","r10","r11","r12","r13","r14","r15","rip","eflags","cs","ss","ds","es","fs","gs","st0","st1","st2","st3","st4","st5","st6","st7","fctrl","fstat","ftag","fiseg","fioff","foseg","fooff","fop","xmm0","xmm1","xmm2","xmm3","xmm4","xmm5","xmm6","xmm7","xmm8","xmm9","xmm10","xmm11","xmm12","xmm13","xmm14","xmm15","mxcsr"],time={wallclock="0.00019",user="0.00019",system="0.00000",start="1344109317.374543",end="1344109317.374736"}
+#  processing result t=1.323013 Tepoch=1344109317.385663
+#  didFinish Sequence: <PBXGDB_RegisterDataValueSetupSequence: 0x2006e1580> t=1.337611 Tepoch=1344109317.400261
+#  Executing Sequence: <PBXGDB_RunControlSequence: 0x2006e6160> t=1.337681 Tepoch=1344109317.400330
 <- (gdb) 
--> 3818-exec-run
-#  PBXGDB_MIRunExecutableCommand t=3.654266 Tepoch=1344037114.870231
-<- ~"[Switching to process 74386]\n"
-<- 3818^running
-#  processing result t=5.078567 Tepoch=1344037116.294532
--> 3819-pid-info
-#  PBXGDB_MIGetPIDCommand t=5.150933 Tepoch=1344037116.366899
+-> 265-exec-run
+#  PBXGDB_MIRunExecutableCommand t=1.341902 Tepoch=1344109317.404551
+<- ~"[Switching to process 50149]\n"
+<- =shlibs-updated
+<- 265^running
+#  processing result t=1.692854 Tepoch=1344109317.755503
+-> 266-pid-info
+#  PBXGDB_MIGetPIDCommand t=1.716847 Tepoch=1344109317.779496
 <- (gdb) 
-<- 3819^done,process-id="74386",time={wallclock="0.00003",user="0.00002",system="0.00002",start="1344037116.367100",end="1344037116.367135"}
-#  processing result t=5.161144 Tepoch=1344037116.377110
-#  didFinish Sequence: <PBXGDB_RunControlSequence: 0x201090b60> t=5.376198 Tepoch=1344037116.592163
+<- =shlibs-added,shlib-info=[num="2",name="Ch9_Problem5_linked",kind="-",dyld-addr="0x100000000",reason="exec",requested-state="E",state="E",path="/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug/Ch9_Problem5_linked",description="/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug/Ch9_Problem5_linked",loaded_addr="",slide="0x0",prefix=""],time={now="1344109317.775944"}
+<- =shlibs-added,shlib-info=[num="3",name="libgomp.1.0.0.dylib",kind="-",dyld-addr="0x100004000",reason="dyld",requested-state="E",state="E",path="/usr/local/lib/libgomp.1.0.0.dylib",description="/usr/local/lib/libgomp.1.0.0.dylib",loaded_addr="0x100004000",slide="0x100004000",prefix=""],time={now="1344109317.776067"}
+<- =shlibs-added,shlib-info=[num="4",name="libipv4address.dylib",kind="-",dyld-addr="0x100012000",reason="dyld",requested-state="E",state="E",path="/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug/libipv4address.dylib",description="/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug/libipv4address.dylib",loaded_addr="0x100012000",slide="0x100012000",prefix=""],time={now="1344109317.776271"}
+<- =shlibs-added,shlib-info=[num="5",name="libSystem.B.dylib",kind="-",dyld-addr="0x7fff89508000",reason="dyld",requested-state="Y",state="Y",path="/usr/lib/libSystem.B.dylib",description="/usr/lib/libSystem.B.dylib",loaded_addr="0x7fff89508000",slide="0x7fff89508000",prefix="",commpage-objpath="/usr/lib/libSystem.B.dylib[LC_SEGMENT.__DATA.__commpage]"],time={now="1344109317.776401"}
+<- =shlibs-added,shlib-info=[num="6",name="libmathCommon.A.dylib",kind="-",dyld-addr="0x7fff88719000",reason="dyld",requested-state="E",state="E",path="/usr/lib/system/libmathCommon.A.dylib",description="/usr/lib/system/libmathCommon.A.dylib",loaded_addr="0x7fff88719000",slide="0x7fff88719000",prefix=""],time={now="1344109317.776598"}
+<- 266^done,process-id="50149",time={wallclock="0.00003",user="0.00002",system="0.00001",start="1344109317.780215",end="1344109317.780241"}
+#  processing result t=1.927902 Tepoch=1344109317.990551
+#  didFinish Sequence: <PBXGDB_RunControlSequence: 0x2006e6160> t=1.939789 Tepoch=1344109318.002438
 <- (gdb) 
-<- 3818*stopped,time={wallclock="32.30839",user="0.00084",system="0.00315",start="1344037114.870406",end="1344037147.178794"},reason="exited-normally"
-#  processing result t=35.984606 Tepoch=1344037147.200571
+-> 0-exec-interrupt
+<- 0^done,time={wallclock="0.00003",user="0.00002",system="0.00001",start="1344109349.942222",end="1344109349.942256"}
+#  processing result t=33.888761 Tepoch=1344109349.951410
+<- 265*stopped,time={wallclock="32.51443",user="0.00863",system="0.01022",start="1344109317.428411",end="1344109349.942843"},reason="signal-received",signal-name="SIGINT",signal-meaning="Interrupt",thread-id="1"
+#  processing result t=33.890835 Tepoch=1344109349.953484
+#  Enqueue seq in Command Q: <PBXGDB_ThreadListSequence: 0x2005efd20> t=33.892811 Tepoch=1344109349.955460
+#  Executing Sequence: <PBXGDB_ThreadListSequence: 0x2005efd20> t=33.892871 Tepoch=1344109349.955520
+-> 267-mi-verify-command target-load-solib
+#  PBXGDB_MIVerifyCommandCommand t=33.892930 Tepoch=1344109349.955579
+<- (gdb) 
+<- 267^done,name="target-load-solib",defined="true",implemented="true",time={wallclock="0.00004",user="0.00003",system="0.00001",start="1344109349.956978",end="1344109349.957016"}
+#  processing result t=33.895134 Tepoch=1344109349.957784
+-> 268-target-load-solib "/Developer/Applications/Xcode.app/Contents/PlugIns/GDBMIDebugging.xcplugin/Contents/Resources/PBGDBIntrospectionSupport.A.dylib" RTLD_NOW|RTLD_GLOBAL
+#  PBXGDB_MISafeLoadIntrospectionLibraryCommand t=33.895269 Tepoch=1344109349.957918
+<- (gdb) 
+<- =shlibs-added,shlib-info=[num="7",name="PBGDBIntrospectionSupport.A.dylib",kind="-",dyld-addr="0x100047000",reason="dyld",requested-state="Y",state="Y",path="/Developer/Applications/Xcode.app/Contents/PlugIns/GDBMIDebugging.xcplugin/Contents/Resources/PBGDBIntrospectionSupport.A.dylib",description="/Developer/Applications/Xcode.app/Contents/PlugIns/GDBMIDebugging.xcplugin/Contents/Resources/PBGDBIntrospectionSupport.A.dylib",loaded_addr="0x100047000",slide="0x100047000",prefix="",dsym-objpath="/Developer/Applications/Xcode.app/Contents/PlugIns/GDBMIDebugging.xcplugin/Contents/Resources/PBGDBIntrospectionSupport.A.dylib.dSYM/Contents/Resources/DWARF/PBGDBIntrospectionSupport.A.dylib"],time={now="1344109350.021186"}
+<- 268^done,handle="0x0000000100100210",token="0-solib",time={wallclock="0.06592",user="0.00562",system="0.00871",start="1344109349.958239",end="1344109350.024160"}
+#  processing result t=33.973228 Tepoch=1344109350.035877
+-> 269-data-evaluate-expression -u "(int)Xcode_dataFormattersSupportUnicharXcode_CF()"
+#  PBXGDB_MIEvaluateExpressionCommand t=33.973317 Tepoch=1344109350.035966
+<- (gdb) 
+<- 269^done,value="1",time={wallclock="0.05683",user="0.00179",system="0.00162",start="1344109350.045217",end="1344109350.102048"}
+#  processing result t=34.044482 Tepoch=1344109350.107131
+-> 270-thread-list-ids
+#  PBXGDB_MIThreadListCommand t=34.044571 Tepoch=1344109350.107220
+<- (gdb) 
+<- 270^done,thread-ids={thread-id="1"},number-of-threads="1",threads=[thread={thread-id="1",state="WAITING",mach-port-number="0xa0f",pthread-id="0x7fff71081cc0",unique-id="0x1e4d66",workqueue="com.apple.main-thread",workqueue_addr="0x7fff710738a0"}],time={wallclock="0.00047",user="0.00019",system="0.00029",start="1344109350.111245",end="1344109350.111717"}
+#  processing result t=34.054996 Tepoch=1344109350.117646
+#  Enqueue seq in Command Q: <PBXGDB_UpdateStackSequence: 0x202bdf8a0> t=34.056075 Tepoch=1344109350.118725
+#  didFinish Sequence: <PBXGDB_ThreadListSequence: 0x2005efd20> t=34.087305 Tepoch=1344109350.149954
+#  Executing Sequence: <PBXGDB_UpdateStackSequence: 0x202bdf8a0> t=34.090467 Tepoch=1344109350.153117
+-> 271-mi-verify-command stack-list-frames-lite
+#  PBXGDB_MIVerifyCommandCommand t=34.090579 Tepoch=1344109350.153228
+<- (gdb) 
+<- 271^done,name="stack-list-frames-lite",defined="true",implemented="true",time={wallclock="0.00004",user="0.00003",system="0.00001",start="1344109350.153429",end="1344109350.153470"}
+#  processing result t=34.104223 Tepoch=1344109350.166872
+-> 0-thread-select 1
+-> 272-stack-list-frames-lite -limit 500
+#  PBXGDB_MILiteStackFramesCommand t=34.104909 Tepoch=1344109350.167558
+<- (gdb) 
+<- 0^done,new-thread-id="1",thread-name="com.apple.main-thread",frame={addr="0x00007fff8950a982",fp="0x00007fff5fbfac30",func="read$NOCANCEL",optimized="0",args=[],shlibname="/usr/lib/libSystem.B.dylib"},time={wallclock="0.00039",user="0.00020",system="0.00018",start="1344109350.167096",end="1344109350.167483"}
+#  processing result t=34.108231 Tepoch=1344109350.170880
+<- (gdb) 
+<- =shlib-state-modified,shlib-info=[num="4",name="libipv4address.dylib",kind="-",dyld-addr="0x100012000",reason="dyld",requested-state="Y",state="Y",path="/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug/libipv4address.dylib",description="/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug/libipv4address.dylib",loaded_addr="0x100012000",slide="0x100012000",prefix="",dsym-objpath="/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug/libipv4address.dylib.dSYM/Contents/Resources/DWARF/libipv4address.dylib"]
+<- =shlib-state-modified,shlib-info=[num="2",name="Ch9_Problem5_linked",kind="-",dyld-addr="0x100000000",reason="exec",requested-state="Y",state="Y",path="/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug/Ch9_Problem5_linked",description="/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug/Ch9_Problem5_linked",loaded_addr="0x100000000",slide="0x0",prefix="",dsym-objpath="/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug/Ch9_Problem5_linked.dSYM/Contents/Resources/DWARF/Ch9_Problem5_linked"]
+<- 272^done,frames=[0={pc="0x00007fff8950a982",fp="0x00007fff5fbfac30",shlibname="/usr/lib/libSystem.B.dylib"},1={pc="0x00007fff8955a0ef",fp="0x00007fff5fbfac40",shlibname="/usr/lib/libSystem.B.dylib"},2={pc="0x00007fff89551e34",fp="0x00007fff5fbfac60",shlibname="/usr/lib/libSystem.B.dylib"},3={pc="0x00007fff89551cca",fp="0x00007fff5fbfac80",shlibname="/usr/lib/libSystem.B.dylib"},4={pc="0x00007fff8955048f",fp="0x00007fff5fbfb1a0",shlibname="/usr/lib/libSystem.B.dylib"},5={pc="0x00007fff8959ea27",fp="0x00007fff5fbfb2a0",shlibname="/usr/lib/libSystem.B.dylib"},6={pc="0x0000000100012d85",fp="0x00007fff5fbfb340",shlibname="/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug/libipv4address.dylib"},7={pc="0x000000010000175b",fp="0x00007fff5fbfe290",shlibname="/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug/Ch9_Problem5_linked"}],valid="1",count="8",time={wallclock="0.05042",user="0.00278",system="0.00288",start="1344109350.167686",end="1344109350.218111"}
+#  processing result t=34.176838 Tepoch=1344109350.239488
+-> 273-stack-list-frames 0 7
+#  PBXGDB_MIStackFramesCommand t=34.177009 Tepoch=1344109350.239658
+<- (gdb) 
+<- 273^done,stack=[frame={level="0",addr="0x00007fff8950a982",fp="0x00007fff5fbfac30",func="read$NOCANCEL",optimized="0",shlibname="/usr/lib/libSystem.B.dylib"},frame={level="1",addr="0x00007fff8955a0ef",fp="0x00007fff5fbfac40",func="__sread",optimized="0",shlibname="/usr/lib/libSystem.B.dylib"},frame={level="2",addr="0x00007fff89551e34",fp="0x00007fff5fbfac60",func="_sread",optimized="0",shlibname="/usr/lib/libSystem.B.dylib"},frame={level="3",addr="0x00007fff89551cca",fp="0x00007fff5fbfac80",func="__srefill",optimized="0",shlibname="/usr/lib/libSystem.B.dylib"},frame={level="4",addr="0x00007fff8955048f",fp="0x00007fff5fbfb1a0",func="__svfscanf_l",optimized="0",shlibname="/usr/lib/libSystem.B.dylib"},frame={level="5",addr="0x00007fff8959ea27",fp="0x00007fff5fbfb2a0",func="scanf",optimized="0",shlibname="/usr/lib/libSystem.B.dylib"},frame={level="6",addr="0x0000000100012d85",fp="0x00007fff5fbfb340",func="scan_address",optimized="0",file="/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/libipv4address.c",fullname="/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/libipv4address.c",line="29",shlibname="/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug/libipv4address.dylib"},frame={level="7",addr="0x000000010000175b",fp="0x00007fff5fbfe290",func="main",optimized="0",file="/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/Ch9_Problem5_linked.c",fullname="/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/Ch9_Problem5_linked.c",line="26",shlibname="/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/build/Debug/Ch9_Problem5_linked"}],time={wallclock="0.00842",user="0.00297",system="0.00442",start="1344109350.273832",end="1344109350.282247"}
+#  processing result t=34.301403 Tepoch=1344109350.364052
+#  Enqueue seq in Command Q: <PBXGDB_UpdateDataValueSequence: 0x2016bb060> t=34.301814 Tepoch=1344109350.364463
+#  Enqueue seq in Command Q: <PBXGDB_GetFrameSymbolsDataValueSequence: 0x2016707e0> t=34.301936 Tepoch=1344109350.364585
+#  Enqueue seq in Command Q: <PBXGDB_DisassembleSequence: 0x2014b4cc0> t=34.303152 Tepoch=1344109350.365801
+#  didFinish Sequence: <PBXGDB_UpdateStackSequence: 0x202bdf8a0> t=34.303756 Tepoch=1344109350.366405
+#  Executing Sequence: <PBXGDB_UpdateDataValueSequence: 0x2016bb060> t=34.303802 Tepoch=1344109350.366451
+#  didFinish Sequence: <PBXGDB_UpdateDataValueSequence: 0x2016bb060> t=34.304075 Tepoch=1344109350.366724
+#  Executing Sequence: <PBXGDB_GetFrameSymbolsDataValueSequence: 0x2016707e0> t=34.304112 Tepoch=1344109350.366761
+-> 0-stack-select-frame 0
+-> 275-stack-list-arguments 2 0 0
+#  PBXGDB_MIFrameArgVarObjsCommand t=34.304226 Tepoch=1344109350.366875
+<- (gdb) 
+<- 0^done,time={wallclock="0.00023",user="0.00005",system="0.00001",start="1344109350.368670",end="1344109350.368904"}
+#  processing result t=34.314161 Tepoch=1344109350.376811
+<- (gdb) 
+<- 275^done,stack-args=[frame={level="0",args=[]}],time={wallclock="0.00002",user="0.00002",system="0.00000",start="1344109350.368993",end="1344109350.369015"}
+#  processing result t=34.314295 Tepoch=1344109350.376944
+-> 0-stack-select-frame 0
+-> 276-stack-list-locals 2 1
+#  PBXGDB_MIFrameAllLocalVarObjsCommand t=34.314418 Tepoch=1344109350.377067
+<- (gdb) 
+<- 0^done,time={wallclock="0.00005",user="0.00004",system="0.00001",start="1344109350.377745",end="1344109350.377793"}
+#  processing result t=34.315913 Tepoch=1344109350.378562
+<- (gdb) 
+<- 276^done,locals=[],time={wallclock="0.00001",user="0.00001",system="0.00000",start="1344109350.377865",end="1344109350.377879"}
+#  processing result t=34.316028 Tepoch=1344109350.378677
+-> 277-mi-verify-command file-list-statics
+#  PBXGDB_MIVerifyCommandCommand t=34.316100 Tepoch=1344109350.378749
+<- (gdb) 
+<- 277^done,name="file-list-statics",defined="true",implemented="true",time={wallclock="0.00023",user="0.00004",system="0.00001",start="1344109350.380068",end="1344109350.380300"}
+#  processing result t=34.318272 Tepoch=1344109350.380921
+-> 278-file-list-statics -file "*CURRENT FRAME*" -shlib "" --no-values -filter "^_OBJC" -constants 0
+#  PBXGDB_MIFileListStaticsCommand t=34.318367 Tepoch=1344109350.381016
+<- (gdb) 
+<- 278^done,statics=[],time={wallclock="0.00004",user="0.00003",system="0.00001",start="1344109350.381485",end="1344109350.381521"}
+#  processing result t=34.319350 Tepoch=1344109350.381999
+#  Enqueue seq in Command Q: <PBXGDB_UpdateDataValueSequence: 0x2010d56e0> t=34.319741 Tepoch=1344109350.382390
+#  didFinish Sequence: <PBXGDB_GetFrameSymbolsDataValueSequence: 0x2016707e0> t=34.319783 Tepoch=1344109350.382432
+#  Executing Sequence: <PBXGDB_DisassembleSequence: 0x2014b4cc0> t=34.319847 Tepoch=1344109350.382496
+-> 279-data-disassemble -s 140735497152898 -n 128 -p 64 -- 0
+#  PBXGDB_MIDisassembleCommand t=34.321256 Tepoch=1344109350.383906
+<- (gdb) 
+<- 279^done,asm_insns=[{address="0x00007fff8950a978",func-name="read$NOCANCEL",offset="0",inst="mov    $0x200018c,%eax"},{address="0x00007fff8950a97d",func-name="read$NOCANCEL",offset="5",inst="mov    %rcx,%r10"},{address="0x00007fff8950a980",func-name="read$NOCANCEL",offset="8",inst="syscall "},{address="0x00007fff8950a982",func-name="read$NOCANCEL",offset="10",inst="jae    0x7fff8950a989 <read$NOCANCEL+17>"},{address="0x00007fff8950a984",func-name="read$NOCANCEL",offset="12",inst="jmpq   0x7fff895f7b10 <cerror>"},{address="0x00007fff8950a989",func-name="read$NOCANCEL",offset="17",inst="retq   "},{address="0x00007fff8950a98a",func-name="read$NOCANCEL",offset="18",inst="nop    "},{address="0x00007fff8950a98b",func-name="read$NOCANCEL",offset="19",inst="nop    "}],time={wallclock="0.00206",user="0.00059",system="0.00040",start="1344109350.384383",end="1344109350.386439"}
+#  processing result t=34.330837 Tepoch=1344109350.393486
+#  didFinish Sequence: <PBXGDB_DisassembleSequence: 0x2014b4cc0> t=34.390158 Tepoch=1344109350.452808
+#  Executing Sequence: <PBXGDB_UpdateDataValueSequence: 0x2010d56e0> t=34.390224 Tepoch=1344109350.452873
+#  didFinish Sequence: <PBXGDB_UpdateDataValueSequence: 0x2010d56e0> t=34.390325 Tepoch=1344109350.452974
+<- (gdb) 
+#  Enqueue seq in Command Q: <PBXGDB_QuitSequence: 0x201a3a3e0> t=42.468721 Tepoch=1344109358.531370
+#  Executing Sequence: <PBXGDB_QuitSequence: 0x201a3a3e0> t=42.468788 Tepoch=1344109358.531437
+-> 281kill
+#  PBXGDB_MIKillCommand t=42.468847 Tepoch=1344109358.531496
+<- &"kill\n"
+<- 281^done
+#  processing result t=42.505173 Tepoch=1344109358.567822
+-> 282quit
+#  PBXGDB_MIQuitCommand t=42.505255 Tepoch=1344109358.567904
+#  didFinish Sequence: <PBXGDB_QuitSequence: 0x201a3a3e0> t=42.505344 Tepoch=1344109358.567994
+<- (gdb) 
+<- &"quit\n"

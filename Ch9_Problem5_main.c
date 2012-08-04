@@ -80,7 +80,7 @@ print_address(IPv4_Address_t IP) { // This function is needed so the IPv4_Addres
  */
 IPv4_Address_t scan_address(void); // prototype
 IPv4_Address_t 
-scan_address(void) { // This function is needed so the IPv4_Address_t struct will have a way to be displayed
+scan_address(void) { // This function is needed to have a way to put data into the IPv4_Address_t struct
 	IPv4_Address_t IP;
 	scanf("%d%d%d%d%s", &IP.first_digits, &IP.second_digits, &IP.third_digits, &IP.fourth_digits, IP.nickname);
 	return (IP);

@@ -1,0 +1,11 @@
+*.DS_Store
+*.pbxuser
+*.perspectivev3
+-1
+Debug/*
+Debug
+build
+build/*
+*.build
+*.cbtemp
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1344037181 source:/Users/localadmin/Documents/School/Computer Science/Intro to C/Ch9_Problem5/Ch9_Problem5_main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

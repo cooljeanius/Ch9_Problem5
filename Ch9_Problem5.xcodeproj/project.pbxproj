@@ -27,14 +27,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A5FC034915CD9CA700B85A02 /* libipv4address_dynamic */;
+			remoteGlobalIDString = A5FC034915CD9CA700B85A02;
 			remoteInfo = libipv4address_dynamic;
 		};
 		A5FC037715CDB1D600B85A02 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A5FC036415CDB15B00B85A02 /* libipv4address_static */;
+			remoteGlobalIDString = A5FC036415CDB15B00B85A02;
 			remoteInfo = libipv4address_static;
 		};
 /* End PBXContainerItemProxy section */
